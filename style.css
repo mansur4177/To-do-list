@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: gray;
+    background:  rgb(194, 190, 190);
+}
+
+.wrapper {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: clamp(24px, 30px, 48px);
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.header {
+    width: 100%;
+    padding: 5%;
+    color: white;
+    background: rgb(224, 11, 224);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.input-task {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.input-task input,
+.input-task button {
+    padding: 8px 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-task input {
+    flex-basis: 80%;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background: white;
+}
+
+.input-task button {
+     flex-basis: 20%;
+     font-weight: 600;
+     outline: none;
+     border: none;
+     border-radius: 5px;
+     color: gray;
+     background: white;
+}
+
+.content {
+    width: 100%;
+    padding: 5%;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.tasks {
+    margin-bottom: 5%;
+}
+
+.task {
+    display: flex;
+    gap: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    background: white;
+    margin-bottom: 2%;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.task-id {
+    width: 20px;
+}
+
+.content button {
+    display: block;
+    padding: 8px 12px;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: rgb(231, 6, 231);
+}
+
